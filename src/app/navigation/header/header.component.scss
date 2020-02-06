@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+.mat-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background: $them-color;
+  color: $white-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.mat-icon-button {
+  width: auto;
+  margin-right: 24px;
+}
+.component-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}

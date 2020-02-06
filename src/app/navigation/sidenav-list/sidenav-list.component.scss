@@ -1,0 +1,8 @@
+@import '../../variables.scss';
+
+.mat-list-base {
+  padding-top: 2px;
+  .mat-list-item {
+    color: $them-color;
+  }
+}

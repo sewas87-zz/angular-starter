@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.user-info {
+  padding: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  .avatar {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+    img {
+      max-width: 100%;
+    }
+  }
+  .user-phone {
+    text-decoration: none;
+    color: $grey-text;
+  }
+  .user-name {
+    text-transform: uppercase;
+    color: $them-color;
+  }
+}
